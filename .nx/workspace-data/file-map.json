@@ -1,0 +1,330 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.3.7",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "docs": [
+        {
+          "file": "apps/docs/.gitignore",
+          "hash": "4674865765288542301"
+        },
+        {
+          "file": "apps/docs/README.md",
+          "hash": "5939520896040429552"
+        },
+        {
+          "file": "apps/docs/app/favicon.ico",
+          "hash": "6963086788728055387"
+        },
+        {
+          "file": "apps/docs/app/globals.css",
+          "hash": "4526485713517422221"
+        },
+        {
+          "file": "apps/docs/app/layout.tsx",
+          "hash": "9976211310289442745"
+        },
+        {
+          "file": "apps/docs/app/page.tsx",
+          "hash": "7543254767766521765"
+        },
+        {
+          "file": "apps/docs/eslint.config.js",
+          "hash": "2155062306484237557"
+        },
+        {
+          "file": "apps/docs/next-env.d.ts",
+          "hash": "1320675027584673186"
+        },
+        {
+          "file": "apps/docs/next.config.ts",
+          "hash": "17463433548533910178"
+        },
+        {
+          "file": "apps/docs/package.json",
+          "hash": "8681056993699075318",
+          "deps": [
+            "npm:@next/eslint-plugin-next",
+            "@repo/eslint-config",
+            "@repo/tailwind-config",
+            "@repo/typescript-config",
+            "npm:@tailwindcss/postcss",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "@repo/ui",
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/docs/postcss.config.js",
+          "hash": "227267225400469440"
+        },
+        {
+          "file": "apps/docs/public/circles.svg",
+          "hash": "904257076579356148"
+        },
+        {
+          "file": "apps/docs/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "apps/docs/public/turborepo.svg",
+          "hash": "17830309311114187767"
+        },
+        {
+          "file": "apps/docs/public/vercel.svg",
+          "hash": "2376673330454856631"
+        },
+        {
+          "file": "apps/docs/tsconfig.json",
+          "hash": "70612237308890349"
+        }
+      ],
+      "web": [
+        {
+          "file": "apps/web/.gitignore",
+          "hash": "4674865765288542301"
+        },
+        {
+          "file": "apps/web/README.md",
+          "hash": "10165086046974360275"
+        },
+        {
+          "file": "apps/web/app/favicon.ico",
+          "hash": "6963086788728055387"
+        },
+        {
+          "file": "apps/web/app/globals.css",
+          "hash": "4526485713517422221"
+        },
+        {
+          "file": "apps/web/app/layout.tsx",
+          "hash": "9976211310289442745"
+        },
+        {
+          "file": "apps/web/app/page.tsx",
+          "hash": "12855642556957189383"
+        },
+        {
+          "file": "apps/web/eslint.config.js",
+          "hash": "2155062306484237557"
+        },
+        {
+          "file": "apps/web/next-env.d.ts",
+          "hash": "1320675027584673186"
+        },
+        {
+          "file": "apps/web/next.config.ts",
+          "hash": "17463433548533910178"
+        },
+        {
+          "file": "apps/web/package.json",
+          "hash": "17662453310537466662",
+          "deps": [
+            "npm:@next/eslint-plugin-next",
+            "@repo/eslint-config",
+            "@repo/tailwind-config",
+            "@repo/typescript-config",
+            "npm:@tailwindcss/postcss",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "@repo/ui",
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/web/postcss.config.js",
+          "hash": "227267225400469440"
+        },
+        {
+          "file": "apps/web/public/circles.svg",
+          "hash": "904257076579356148"
+        },
+        {
+          "file": "apps/web/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "apps/web/public/turborepo.svg",
+          "hash": "17830309311114187767"
+        },
+        {
+          "file": "apps/web/public/vercel.svg",
+          "hash": "2376673330454856631"
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "70612237308890349"
+        }
+      ],
+      "@repo/ui": [
+        {
+          "file": "packages/ui/eslint.config.mjs",
+          "hash": "5418178612699070611"
+        },
+        {
+          "file": "packages/ui/package.json",
+          "hash": "6152777629229916477",
+          "deps": [
+            "npm:react@19.0.0",
+            "@repo/eslint-config",
+            "@repo/tailwind-config",
+            "@repo/typescript-config",
+            "npm:@tailwindcss/cli",
+            "npm:@types/react",
+            "npm:eslint",
+            "npm:tailwindcss",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/ui/src/card.tsx",
+          "hash": "10510033269181441326"
+        },
+        {
+          "file": "packages/ui/src/gradient.tsx",
+          "hash": "9958725296530595149"
+        },
+        {
+          "file": "packages/ui/src/styles.css",
+          "hash": "1423748430459578793"
+        },
+        {
+          "file": "packages/ui/src/turborepo-logo.tsx",
+          "hash": "8533704633028581437"
+        },
+        {
+          "file": "packages/ui/tsconfig.json",
+          "hash": "10791719655558906860"
+        },
+        {
+          "file": "packages/ui/turbo.json",
+          "hash": "9448541111422307765"
+        }
+      ],
+      "@repo/typescript-config": [
+        {
+          "file": "packages/typescript-config/base.json",
+          "hash": "16582354637600534236"
+        },
+        {
+          "file": "packages/typescript-config/nextjs.json",
+          "hash": "5420817179880079656"
+        },
+        {
+          "file": "packages/typescript-config/package.json",
+          "hash": "471180667494266307"
+        },
+        {
+          "file": "packages/typescript-config/react-library.json",
+          "hash": "15305099616913920141"
+        }
+      ],
+      "@repo/tailwind-config": [
+        {
+          "file": "packages/tailwind-config/package.json",
+          "hash": "16276454685096602028",
+          "deps": [
+            "npm:postcss",
+            "npm:tailwindcss"
+          ]
+        },
+        {
+          "file": "packages/tailwind-config/postcss.config.js",
+          "hash": "13913117754303881738"
+        },
+        {
+          "file": "packages/tailwind-config/shared-styles.css",
+          "hash": "9808488871990866347"
+        }
+      ],
+      "@repo/eslint-config": [
+        {
+          "file": "packages/eslint-config/README.md",
+          "hash": "13754227653957484045"
+        },
+        {
+          "file": "packages/eslint-config/base.js",
+          "hash": "1176065183931598248"
+        },
+        {
+          "file": "packages/eslint-config/next.js",
+          "hash": "2930687321885028613"
+        },
+        {
+          "file": "packages/eslint-config/package.json",
+          "hash": "13957492976333252575",
+          "deps": [
+            "npm:@eslint/js",
+            "npm:@next/eslint-plugin-next",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-only-warn",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-turbo",
+            "npm:globals",
+            "npm:typescript",
+            "npm:typescript-eslint"
+          ]
+        },
+        {
+          "file": "packages/eslint-config/react-internal.js",
+          "hash": "15634240683506524420"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "17714628024159044181"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "3403154931541090305"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "1409024233119639755"
+      },
+      {
+        "file": "README.md",
+        "hash": "14292051940845241909"
+      },
+      {
+        "file": "package.json",
+        "hash": "14784043092558292107"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "9812243760241003855"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "9750177317466281158"
+      },
+      {
+        "file": "turbo.json",
+        "hash": "5679308424648633334"
+      }
+    ]
+  }
+}
