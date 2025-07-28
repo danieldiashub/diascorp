@@ -1,4 +1,4 @@
 /* Component-level styles for the UI package */
-@tailwind base;
-@tailwind components;
+/* Tailwind v4 directives */
+@import "tailwindcss/preflight";
 @tailwind utilities;
