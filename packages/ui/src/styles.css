@@ -1,4 +1,6 @@
 /* Component-level styles for the UI package */
 /* Tailwind v4 directives */
 @import "tailwindcss/preflight";
-@tailwind utilities;
+/* Using the import form keeps CSS linters from flagging the Tailwind
+   utilities directive as an unknown at-rule. */
+@import "tailwindcss/utilities";
